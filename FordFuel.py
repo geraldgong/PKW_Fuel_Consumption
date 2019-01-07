@@ -5,7 +5,10 @@
 
 import pandas as pd
 dataOld = pd.read_csv("bigfu.csv", sep =';')
-dataOld = dataOld.drop(['BenutzerNr', 'FahrzeugNr', 'Strecke', 'KraftstoffNr',                    'Kraftstoff', 'Notiz', 'Verbrauch', 'Sparsam',                   'Normal', 'Schnell', 'Winter', 'Sommer', 'Ganzjahr',                   'Stadt', 'Land', 'Autobahn', 'Klima', 'Anhaenger'], axis=1)
+dataOld = dataOld.drop(['BenutzerNr', 'FahrzeugNr', 'Strecke', 'KraftstoffNr',  \
+                  		'Kraftstoff', 'Notiz', 'Verbrauch', 'Sparsam', \
+                  		'Normal', 'Schnell', 'Winter', 'Sommer', 'Ganzjahr',  \
+                  		'Stadt', 'Land', 'Autobahn', 'Klima', 'Anhaenger'], axis=1)
 dataOld.head()
 
 
