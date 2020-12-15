@@ -28,7 +28,7 @@ help:
 ###################
 
 PY_VERSION := 3.6
-CONDA_ENV_NAME ?= conda-env-ford
+CONDA_ENV_NAME ?= conda-env-car
 CONDA_ENV_HDFS_PATH ?= /user/$(USER)/conda-envs/
 ACTIVATE_ENV = source activate ./$(CONDA_ENV_NAME)
 
